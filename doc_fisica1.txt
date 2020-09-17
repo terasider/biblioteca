@@ -1,0 +1,83 @@
+Documentação do arquivo JS  " fisica1.js "
+Este arquivo receberá versões melhoradas e ampliadas com o tempo.
+A cada versão, o número após o "fisica" cresce, indicando a versão correspondente.
+
+
+Metodos:
+
+*	CTP(carga);
+
+Converte a quantidade de carga elétrica em Coulombs para seu equivalente em quantidade de partículas carregadas.
+
+O parâmetro passado abre uma janela de entrada prompt que está configurada para a unidade de medida Coulomb. Para escalas menores,  por enquanto use casas decimais a esquerda.
+
+*	PTC(particulas);
+
+Prompt abre para receber a quantidade de partículas
+e parte para um retorno com numero de carga elétrica resultante em medida Coulomb.
+
+
+*	getIntense();
+
+Via prompt recebe a carga Elétrica em coulomb em seguida outro prompt para receber o intervalo de tempo da corrente medida em segundos. Retorna em log a intensidade da corrente em Ampéres.
+
+*	getInterv();
+Recebe via prompt
+1º) Ampéres
+2º)Carga da corrente (Coulomb)
+Retorna o intervalo de tempo decorrido da corrente
+em segundos.
+
+*	getCharge();
+Recebe via prompt
+1º) Intensidade da corrente em Ampéres
+2º)Tempo decorrido da corrente em segundos.
+Retorna a carga elétrica dessa corrente, medida em Coulombs;
+
+*	potencial();
+Recebe via prompt
+1º) Energia em joules aplicada sobre uma carga elétrica.
+2º)Carga da corrente (Coulomb) que recebeu o impulso de energia em joules.
+Retorna o valor do potencial elétrico envolvido na corrente. Em outras palavras, é a capacidade com que a corrente pode transmitir energia de um ponto a outro considerando a voltagem.
+
+*	toWatt();
+Recebe via prompt
+1º) Forneça o potencial elétrico em Volts.
+2º)Digite a intensidade da corrente em Ampéres.
+Retorna a potencia de energia produzida pela corrente em Watts.
+
+*	energiaJ();
+Recebe via prompt
+1º) Digite a potencia de energia produzida em Watts
+2º)Forneça o intervalo de tempo em segudos durante a qual a corrente transmite os watts.
+Retorna o total em joules da quantidade de energia física gerada pela corrente elétrica.
+
+*	getConsumo();
+Recebe via prompt
+1º) Forneça a quantidade de energia produzida em Joules
+Converte a medida em joules para kilowatt/hora
+
+*	getJoule();
+Recebe via prompt
+1º) Digite o consumo do kilowatt/hora
+Converte a medida em kWh para Joules no tempo decorrido de 1 hora.
+
+*	getCusto();
+1º) Forneça o numero de kwatts/hora.
+2º)A tarifa adotada varia conforme o país, região e período, mas nessa função adotei como 0.32 por cada kWh gasto.
+Retorna o custo monetario multiplicando o consumo dado vezes a tarifa.
+
+*	getCustoUnit();
+1º) Forneça a potencia em watts que um aparelho produz.
+2º)Digite quantidade de horas em que o aparelho é usado.
+Retorna o custo monetario de um aparelho que gasta X Watts de potencia pela quantidade de horas X tarifa vigente.
+
+*	getRes();
+1º) Forneça o potencial elétrico em Volts.
+2º)Digite a intensidade da corrente em Ampéres.
+Considera a resistencia que uma dada intensidade de corrente eletrica encontra dentro de um campo potencial fornecido em Volts, a unidade retornada é em Ohms.
+
+
+
+
+
